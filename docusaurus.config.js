@@ -46,11 +46,16 @@ const config = {
             'https://github.com/wyattshapiro/test-docs/',
         },
         blog: {
-          showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/wyattshapiro/test-docs/',
+          routeBasePath: '/changelog',
+          blogTitle: 'Changelog',
+          blogSidebarTitle: 'All Releases',
+          blogDescription: '',
+          postsPerPage: 5,
+          showReadingTime: false
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -77,7 +82,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/changelog', label: 'Changelog', position: 'left'},
           {
             href: 'https://github.com/wyattshapiro',
             label: 'GitHub',
@@ -96,8 +101,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Changelog',
+                to: '/Changelog',
               },
               {
                 label: 'GitHub',
