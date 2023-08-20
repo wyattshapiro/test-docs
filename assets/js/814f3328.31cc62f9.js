@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgraphd_doc=self.webpackChunkgraphd_doc||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"All Releases","items":[{"title":"Soft Launch","permalink":"/test-docs/changelog/soft-launch"}]}')}}]);
