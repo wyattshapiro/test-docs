@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'Changelog',
-                to: '/Changelog',
+                to: '/changelog',
               },
               {
                 label: 'GitHub',
@@ -111,7 +111,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Graphd`,
       },
       prism: {
         theme: lightCodeTheme,
